@@ -1,0 +1,20 @@
+apiVersion: "acid.zalan.do/v1"
+kind: postgresql
+metadata:
+  name: {{ include "strapi.fullname" . }}-postgres
+spec:
+  teamId: {{ include "strapi.fullname" . }}
+  volume:
+    size: 1Gi
+  numberOfInstances: 2
+  users:
+    brainworks:
+    - superuser
+    - createdb
+    {{ include "strapi.fullname" . }}: []
+  databases:
+    {{ include "strapi.fullname" . }}: {{ include "strapi.fullname" . }}
+  postgresql:
+    version: "12"
+  enableLogicalBackup: true
+  logicalBackupSchedule: "30 00 * * *"
