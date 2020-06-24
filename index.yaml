@@ -3,7 +3,17 @@ entries:
   strapi:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-24T09:08:58.961317+02:00"
+    created: "2020-06-24T09:09:25.082866+02:00"
+    description: A Helm chart for Kubernetes
+    digest: 53ccc13b1da698a59b652bd1c72b155d1a2bdf7804b56b48bf6afc34bf3d0a74
+    name: strapi
+    type: application
+    urls:
+    - https://brainworks-io.github.io/helm-charts/strapi-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2020-06-24T09:09:25.081205+02:00"
     description: A Helm chart for Kubernetes
     digest: 26698be55e5d747bf508fffa5a93ef7050c509443b7e148dd41a7f34e0a1eba3
     name: strapi
@@ -13,7 +23,7 @@ entries:
     version: 0.3.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-24T09:08:58.960666+02:00"
+    created: "2020-06-24T09:09:25.079456+02:00"
     description: A Helm chart for Kubernetes
     digest: c14c40324859e89c570ea48d97ab0a475417760c1e223545c88fa893f8f6a056
     name: strapi
@@ -23,7 +33,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2020-06-24T09:08:58.959057+02:00"
+    created: "2020-06-24T09:09:25.076264+02:00"
     description: A Helm chart for Kubernetes
     digest: 596427159265ee12cca3fc6b0c53dc23686d3e71ad45b5b4212949f44f431df2
     name: strapi
@@ -31,4 +41,4 @@ entries:
     urls:
     - https://brainworks-io.github.io/helm-charts/strapi-0.1.0.tgz
     version: 0.1.0
-generated: "2020-06-24T09:08:58.957848+02:00"
+generated: "2020-06-24T09:09:25.071767+02:00"
